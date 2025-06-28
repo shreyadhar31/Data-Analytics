@@ -1,4 +1,3 @@
-pip install -r requirements.txt
 import pandas as pd
 df = pd.read_csv("netflix dataset.csv", engine='python')
 df.shape
