@@ -1,0 +1,6 @@
+with open("requirements.txt","w") as f:
+  f.write('streamlit\n')
+  f.write("pandas\n")
+  f.write("matplotlib\n")
+  f.write("seaborn\n")
+print('requirements.txt is created')
